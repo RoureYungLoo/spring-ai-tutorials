@@ -1,0 +1,63 @@
+GET http://localhost:8081/ai/chat?prompt=你的头发还好吗?
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-08-14T104856.200.txt
+
+###
+
+GET http://localhost:8081/ai/chat?prompt=你不会自主学习或进化?
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-08-14T104838.200.txt
+
+###
+
+GET http://localhost:8081/ai/chat?prompt=你有什么想给我说的?
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-08-14T104816.200.txt
+
+###
+
+GET http://localhost:8081/ai/chat?prompt=你给我出一个脑筋急转弯?
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-08-14T104609.200.txt
+
+###
+
+GET http://localhost:8081/ai/chat?prompt=你能干什么?
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-08-14T104536.200.txt
+
+###
+
+GET http://localhost:8081/ai/chat
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-08-14T104432.200.txt
+
+###
+
+GET http://localhost:8081/ai/chat
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-08-14T104303.500.json
+
+###
+

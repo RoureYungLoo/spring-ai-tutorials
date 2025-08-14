@@ -1,0 +1,6 @@
+{
+  "timestamp": "2025-08-14T02:43:03.601+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "path": "/ai/chat"
+}
