@@ -1,0 +1,53 @@
+spring:
+  application:
+    name: spring-ai-tutorial-01
+  ai:
+    ollama:
+      # base-url: http://localhost:11434/
+      # base-url: http://172.18.244.76:11434/
+      base-url: http://localhost:11434/
+      chat:
+        enabled: true
+        model: deepseek-r1:8b
+        options:
+          temperature: 0.8
+    openai:
+      api-key: ${ALIYUN_BAI_LIAN_API_KEY}
+      chat:
+        options:
+          model: qwen-max-latest
+      base-url: https://dashscope.aliyuncs.com/compatible-mode
+      embedding:
+        options:
+          dimensions: 1024
+          model: text-embedding-v3
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.100.149:3306/spring-ai-ollama?serverTimezone=Asia/Shanghai&useSSL=false&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&tinyInt1isBit=false&allowPublicKeyRetrieval=true&allowMultiQueries=true&useServerPrepStmts=false
+    username: root
+    password: MySQL123!
+  data:
+    redis:
+      database: 0
+      host: 192.168.100.149
+      port: 6379
+      password: Redis123!
+      jedis:
+        pool:
+          enabled: true
+          max-active: 8
+          max-idle: 8
+          min-idle: 0
+          max-wait: -1ms
+  servlet:
+    multipart:
+      max-file-size: 104857600
+      max-request-size: 104857600
+
+server:
+  port: 8080
+
+logging:
+  level:
+    com.luruoyang: debug
+    org.springframework.ai: debug

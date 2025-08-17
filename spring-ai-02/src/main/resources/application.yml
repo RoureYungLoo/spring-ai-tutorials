@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: spring-ai-02
+  ai:
+    dashscope:
+      chat:
+        options:
+          model: qwen-plus
+      api-key: ${ALIYUN_BAI_LIAN_API_KEY}
+    alibaba:
+      toolcalling:
+        toutiaonews:
+          enabled: true
+        sinanews:
+          enabled: true
+
+
+server:
+  port: 8081
+
