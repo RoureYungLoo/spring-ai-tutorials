@@ -34,7 +34,7 @@ public class AiConfig {
             // 持久化
             messageChatMemoryAdvisor(chatMemory)
         )
-        // Tool Calling
+        // 全局 Tool Calling
         // .defaultToolNames("getToutiaoNews")
         .build();
     log.info("alibaba ai chatClient init success");

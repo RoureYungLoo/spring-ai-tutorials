@@ -5,88 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e4f8498-5764-4f38-8d8a-64ec7f27c2e1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/config/OpenAiConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/constants/SystemConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/controller/GameController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/controller/PDFController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/entity/dto/CourseReservationDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/entity/dto/QueryCourseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/entity/pojo/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/entity/pojo/CourseReservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/entity/pojo/School.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/entity/vo/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/mapper/CourseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/mapper/CourseReservationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/mapper/SchoolMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/model/AlibabaOpenAiChatModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/repository/FileRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/repository/impl/LocalFileRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/repository/impl/RedisFileRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/service/ICourseReservationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/service/ICourseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/service/ISchoolService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/service/impl/CourseReservationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/service/impl/CourseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/service/impl/SchoolServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/tools/CourseTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/util/VectorDistanceUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-01/src/main/resources/mapper/CourseMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-01/src/main/resources/mapper/CourseReservationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-01/src/main/resources/mapper/SchoolMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-01/src/main/resources/sql/openai.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-01/src/test/java/com/luruoyang/EmbeddingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-01/src/test/java/com/luruoyang/VectorStoreTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-01/src/test/java/com/luruoyang/getToolCallbacksTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-01/中二知识笔记.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-02/src/main/java/com/luruoyang/config/AiConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-02/src/main/java/com/luruoyang/controller/AliChatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/【课程大纲】黑马程序员Java课程体系V15.0.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/中二知识笔记.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ai-03/.idea/ApifoxUploaderProjectSetting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ai-03/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ai-03/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ai-03/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ai-03/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ai-03/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ai-03/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ai-03/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ai-03/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ai-03/src/main/java/com/luruoyang/PlanMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ai-03/src/main/java/com/luruoyang/SpringAi03Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ai-03/src/main/java/com/luruoyang/config/AiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ai-03/src/main/java/com/luruoyang/constants/SystemConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ai-03/src/main/java/com/luruoyang/controller/ChatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ai-03/src/main/java/com/luruoyang/domain/dto/QueryPlanDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ai-03/src/main/java/com/luruoyang/domain/entity/Plan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ai-03/src/main/java/com/luruoyang/repository/PlanRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ai-03/src/main/java/com/luruoyang/tools/ChinaMobileTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ai-03/src/main/java/com/luruoyang/vector/RuleDataEmbedding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ai-03/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ai-03/src/main/resources/plan.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ai-03/src/main/resources/rule-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ai-03/src/test/java/com/luruoyang/TestPlanMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a3ade15c-75c5-4be5-84f7-867c8e1fc618.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a3ade15c-75c5-4be5-84f7-867c8e1fc618/storage_v2/_src_/schema/halo.PMAwAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a3ade15c-75c5-4be5-84f7-867c8e1fc618/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a3ade15c-75c5-4be5-84f7-867c8e1fc618/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a3ade15c-75c5-4be5-84f7-867c8e1fc618/storage_v2/_src_/schema/ollama.JmmOww.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a3ade15c-75c5-4be5-84f7-867c8e1fc618/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a3ade15c-75c5-4be5-84f7-867c8e1fc618/storage_v2/_src_/schema/spring-ai-ollama.q8KYDQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a3ade15c-75c5-4be5-84f7-867c8e1fc618/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ai-tutorial-01/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-01/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ai-tutorial-01/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-01/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ai-tutorial-01/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-01/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ai-tutorial-01/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-01/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ai-tutorial-01/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-01/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ai-tutorial-01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-01/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ai-tutorial-01/src/main/java/com/luruoyang/SpringAiTutorial01Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/SpringAi01Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ai-tutorial-01/src/main/java/com/luruoyang/config/OllamaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/config/OllamaConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ai-tutorial-01/src/main/java/com/luruoyang/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/config/RedisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ai-tutorial-01/src/main/java/com/luruoyang/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/config/WebMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ai-tutorial-01/src/main/java/com/luruoyang/controller/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/controller/ChatController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ai-tutorial-01/src/main/java/com/luruoyang/domain/Conversation.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/domain/Conversation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ai-tutorial-01/src/main/java/com/luruoyang/enums/BusinessType.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/enums/BusinessType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ai-tutorial-01/src/main/java/com/luruoyang/mapper/ConversationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/mapper/ConversationMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ai-tutorial-01/src/main/java/com/luruoyang/memory/JdbcChatMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/memory/JdbcChatMemory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ai-tutorial-01/src/main/java/com/luruoyang/memory/RedisChatMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/memory/RedisChatMemory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ai-tutorial-01/src/main/java/com/luruoyang/record/record/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/record/record/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ai-tutorial-01/src/main/java/com/luruoyang/repository/ChatHistoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/repository/ChatHistoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ai-tutorial-01/src/main/java/com/luruoyang/repository/ChatHistoryRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/repository/impl/ChatHistoryRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ai-tutorial-01/src/main/java/com/luruoyang/repository/RedisChatHistoryRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/repository/impl/RedisChatHistoryRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ai-tutorial-01/src/main/java/com/luruoyang/service/IConversationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/service/IConversationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ai-tutorial-01/src/main/java/com/luruoyang/service/impl/ConversationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/service/impl/ConversationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ai-tutorial-01/src/main/java/com/luruoyang/vo/MessageVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/vo/MessageVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ai-tutorial-01/src/main/resources/Compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-01/src/main/resources/Compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ai-tutorial-01/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-01/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ai-tutorial-01/src/main/resources/sql/ollama.sql" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-01/src/main/resources/sql/ollama.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ai-tutorial-01/src/test/java/com/luruoyang/SpringAiTutorial01ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-01/src/test/java/com/luruoyang/SpringAiTutorial01ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ai-tutorial-01/src/test/java/com/luruoyang/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-01/src/test/java/com/luruoyang/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/constants/SystemConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/constants/SystemConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ai-02/src/main/java/com/luruoyang/config/AiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-02/src/main/java/com/luruoyang/config/AiConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ai-02/src/main/java/com/luruoyang/controller/AliChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-02/src/main/java/com/luruoyang/controller/AliChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ai-02/src/main/java/com/luruoyang/tools/DateTimeTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-02/src/main/java/com/luruoyang/tools/DateTimeTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ai-02/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-02/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,8 +62,10 @@
     <setting file="jar://F:/m2/repository/io/micrometer/micrometer-observation/1.14.4/micrometer-observation-1.14.4-sources.jar!/io/micrometer/observation/Observation.java" root0="SKIP_INSPECTION" />
     <setting file="jar://F:/m2/repository/io/micrometer/micrometer-observation/1.14.4/micrometer-observation-1.14.4-sources.jar!/io/micrometer/observation/docs/ObservationDocumentation.java" root0="SKIP_INSPECTION" />
     <setting file="jar://F:/m2/repository/io/projectreactor/reactor-core/3.7.3/reactor-core-3.7.3.jar!/reactor/core/publisher/FluxMapFuseable.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://F:/m2/repository/org/springframework/ai/spring-ai-client-chat/1.0.1/spring-ai-client-chat-1.0.1-sources.jar!/org/springframework/ai/chat/client/DefaultChatClient.java" root0="SKIP_INSPECTION" />
     <setting file="jar://F:/m2/repository/org/springframework/ai/spring-ai-core/1.0.0-M6/spring-ai-core-1.0.0-M6-sources.jar!/org/springframework/ai/chat/client/ChatClient.java" root0="SKIP_INSPECTION" />
     <setting file="jar://F:/m2/repository/org/springframework/ai/spring-ai-core/1.0.0-M6/spring-ai-core-1.0.0-M6-sources.jar!/org/springframework/ai/chat/client/advisor/MessageChatMemoryAdvisor.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://F:/m2/repository/org/springframework/ai/spring-ai-core/1.0.0-M6/spring-ai-core-1.0.0-M6-sources.jar!/org/springframework/ai/chat/client/advisor/QuestionAnswerAdvisor.java" root0="SKIP_INSPECTION" />
     <setting file="jar://F:/m2/repository/org/springframework/ai/spring-ai-core/1.0.0-M6/spring-ai-core-1.0.0-M6-sources.jar!/org/springframework/ai/chat/memory/ChatMemory.java" root0="SKIP_INSPECTION" />
     <setting file="jar://F:/m2/repository/org/springframework/ai/spring-ai-core/1.0.0-M6/spring-ai-core-1.0.0-M6-sources.jar!/org/springframework/ai/chat/memory/InMemoryChatMemory.java" root0="SKIP_INSPECTION" />
     <setting file="jar://F:/m2/repository/org/springframework/ai/spring-ai-core/1.0.0-M6/spring-ai-core-1.0.0-M6-sources.jar!/org/springframework/ai/chat/observation/ChatModelObservationConvention.java" root0="SKIP_INSPECTION" />
@@ -127,10 +79,12 @@
     <setting file="jar://F:/m2/repository/org/springframework/ai/spring-ai-core/1.0.0-M6/spring-ai-core-1.0.0-M6-sources.jar!/org/springframework/ai/tool/util/ToolUtils.java" root0="SKIP_INSPECTION" />
     <setting file="jar://F:/m2/repository/org/springframework/ai/spring-ai-core/1.0.0-M6/spring-ai-core-1.0.0-M6-sources.jar!/org/springframework/ai/vectorstore/SearchRequest.java" root0="SKIP_INSPECTION" />
     <setting file="jar://F:/m2/repository/org/springframework/ai/spring-ai-core/1.0.0-M6/spring-ai-core-1.0.0-M6-sources.jar!/org/springframework/ai/vectorstore/SimpleVectorStore.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://F:/m2/repository/org/springframework/ai/spring-ai-core/1.0.0-M6/spring-ai-core-1.0.0-M6-sources.jar!/org/springframework/ai/vectorstore/VectorStore.java" root0="SKIP_INSPECTION" />
     <setting file="jar://F:/m2/repository/org/springframework/ai/spring-ai-core/1.0.0-M6/spring-ai-core-1.0.0-M6-sources.jar!/org/springframework/ai/vectorstore/observation/AbstractObservationVectorStore.java" root0="SKIP_INSPECTION" />
     <setting file="jar://F:/m2/repository/org/springframework/ai/spring-ai-core/1.0.0-M6/spring-ai-core-1.0.0-M6-sources.jar!/org/springframework/ai/vectorstore/observation/VectorStoreObservationContext.java" root0="SKIP_INSPECTION" />
     <setting file="jar://F:/m2/repository/org/springframework/ai/spring-ai-core/1.0.0-M6/spring-ai-core-1.0.0-M6-sources.jar!/org/springframework/ai/vectorstore/observation/VectorStoreObservationDocumentation.java" root0="SKIP_INSPECTION" />
     <setting file="jar://F:/m2/repository/org/springframework/ai/spring-ai-openai/1.0.0-M6/spring-ai-openai-1.0.0-M6-sources.jar!/org/springframework/ai/openai/OpenAiChatModel.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://F:/m2/repository/org/springframework/ai/spring-ai-pdf-document-reader/1.0.0-M6/spring-ai-pdf-document-reader-1.0.0-M6.jar!/org/springframework/ai/reader/pdf/PagePdfDocumentReader.class" root0="SKIP_INSPECTION" />
     <setting file="jar://F:/m2/repository/org/springframework/data/spring-data-redis/3.4.3/spring-data-redis-3.4.3.jar!/org/springframework/data/redis/core/ListOperations.class" root0="SKIP_INSPECTION" />
     <setting file="jar://F:/m2/repository/org/springframework/data/spring-data-redis/3.4.3/spring-data-redis-3.4.3.jar!/org/springframework/data/redis/core/RedisTemplate.class" root0="SKIP_INSPECTION" />
     <setting file="jar://F:/m2/repository/org/springframework/spring-core/6.2.3/spring-core-6.2.3-sources.jar!/org/springframework/util/Assert.java" root0="SKIP_INSPECTION" />
@@ -169,49 +123,50 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.StudentTest.executor": "Debug",
-    "JUnit.EmbeddingTest.testCosDistance.executor": "Run",
-    "JUnit.EmbeddingTest.testDistance.executor": "Run",
-    "JUnit.EmbeddingTest.testEuclideanDistance.executor": "Run",
-    "JUnit.VectorStoreTest.executor": "Debug",
-    "JUnit.VectorStoreTest.testVectorStore.executor": "Run",
-    "JUnit.getToolCallbacksTest.getToolCallbacks.executor": "Debug",
-    "Maven.spring-ai-tutorials [clean].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.SpringAi01Application.executor": "Debug",
-    "Spring Boot.SpringAi02Application.executor": "Run",
-    "Spring Boot.SpringAiTutorial01Application.executor": "Debug",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/CodeSpace/spring-ai-tutorials/spring-ai-01/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15332031",
-    "project.structure.side.proportion": "0.3586207",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "com.itangcent.idea.plugin.configurable.AccountConfigurable.apifox",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.StudentTest.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.EmbeddingTest.testCosDistance.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmbeddingTest.testDistance.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmbeddingTest.testEuclideanDistance.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.VectorStoreTest.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.VectorStoreTest.testVectorStore.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.getToolCallbacksTest.getToolCallbacks.executor&quot;: &quot;Debug&quot;,
+    &quot;Maven.spring-ai-tutorials [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.SpringAi01Application.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.SpringAi02Application.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SpringAi03Application.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SpringAiTutorial01Application.executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CodeSpace/spring-ai-tutorials&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15332031&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3586207&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.itangcent.idea.plugin.configurable.AccountConfigurable.apifox&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -237,7 +192,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringAi02Application">
+  <component name="RunManager" selected="Spring Boot.SpringAi03Application">
     <configuration name="EmbeddingTest.testEuclideanDistance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-ai-01" />
       <extension name="coverage">
@@ -321,6 +276,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringAi03Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-ai-03" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luruoyang.SpringAi03Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringAiTutorial01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-ai-01" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.luruoyang.SpringAiTutorial01Application" />
@@ -368,6 +330,10 @@
       <workItem from="1755317428396" duration="25834000" />
       <workItem from="1755353738075" duration="10181000" />
       <workItem from="1755399482974" duration="12983000" />
+      <workItem from="1755431952384" duration="310000" />
+      <workItem from="1755434181289" duration="158000" />
+      <workItem from="1755446215007" duration="3826000" />
+      <workItem from="1755478793671" duration="136000" />
     </task>
     <servers />
   </component>

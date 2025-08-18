@@ -27,10 +27,15 @@ public class AliChatController {
   @Operation(summary = "同步聊天")
   public String chat(String chatId, String prompt) {
     return chatClient.prompt()
+        // 用户Prompt
         .user(prompt)
+        // 会话隔离
         .advisors(advisorSpec -> advisorSpec.param(ChatMemory.CONVERSATION_ID, chatId))
+        // Tool Calling / Function Calling
         .toolNames("getToutiaoNews")
+        // 同步调用
         .call()
+        // 获取响应内容
         .content();
   }
 
@@ -41,6 +46,7 @@ public class AliChatController {
         .user(prompt)
         .advisors(advisorSpec -> advisorSpec.param(ChatMemory.CONVERSATION_ID, chatId))
         .toolNames("getToutiaoNews")
+        // 流式调用
         .stream()
         .content();
     return content;
@@ -67,6 +73,7 @@ public class AliChatController {
     Flux<String> content = chatClient.prompt()
         .user(prompt)
         .advisors(advisorSpec -> advisorSpec.param(ChatMemory.CONVERSATION_ID, chatId))
+        // Tool Calling
         .tools(dateTimeTools)
         .stream()
         .content();

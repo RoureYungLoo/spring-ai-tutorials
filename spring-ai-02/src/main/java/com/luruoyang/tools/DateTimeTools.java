@@ -1,5 +1,6 @@
 package com.luruoyang.tools;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.ai.tool.annotation.Tool;
 import org.springframework.ai.tool.annotation.ToolParam;
 import org.springframework.context.annotation.Description;
@@ -12,6 +13,7 @@ import java.time.format.DateTimeFormatter;
  * @author luruoyang
  */
 @Component
+@Slf4j
 public class DateTimeTools {
 
   @Tool(description = "获取当前时间")
@@ -23,8 +25,7 @@ public class DateTimeTools {
   public String setAlarm(@ToolParam(required = true, description = "闹钟时间") String time) {
     LocalDateTime alarmTime = LocalDateTime.parse(time, DateTimeFormatter.ISO_DATE_TIME);
     String res = "Alarm set for " + alarmTime;
-    System.out.println("=========================" + res);
+    log.info("已经设置了闹钟: {}", res);
     return res;
-
   }
 }

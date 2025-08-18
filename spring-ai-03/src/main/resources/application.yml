@@ -1,0 +1,27 @@
+server:
+  port: 8082
+
+spring:
+  ai:
+    openai:
+      api-key: ${ALIYUN_BAI_LIAN_API_KEY}
+      base-url: https://dashscope.aliyuncs.com/compatible-mode
+      chat:
+        options:
+          model: qwen-max-latest
+      embedding:
+        options:
+          model: text-embedding-v3
+          dimensions: 1024
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.100.149:3306/spring-ai-ollama?serverTimezone=Asia/Shanghai&useSSL=false&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&tinyInt1isBit=false&allowPublicKeyRetrieval=true&allowMultiQueries=true&useServerPrepStmts=false
+    username: root
+    password: MySQL123!
+
+logging:
+  level:
+    com.luruoyang: debug
+    org.springframework.ai: debug
+    org.mybatis: debug
+    com.baomidou: debug
