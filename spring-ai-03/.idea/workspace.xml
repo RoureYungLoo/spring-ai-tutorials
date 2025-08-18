@@ -5,33 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7540ea1-a7c4-44e6-810b-1efb5d84dfe2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ApifoxUploaderProjectSetting.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luruoyang/PlanMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luruoyang/SpringAi03Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luruoyang/config/AiConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luruoyang/constants/SystemConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luruoyang/controller/ChatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luruoyang/domain/dto/QueryPlanDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luruoyang/domain/entity/Plan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luruoyang/repository/PlanRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luruoyang/tools/ChinaMobileTool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luruoyang/vector/RuleDataEmbedding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/plan.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/rule-data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/luruoyang/TestPlanMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-ai-04-mcp/.idea/ApifoxUploaderProjectSetting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-ai-04-mcp/mcp-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-ai-04-mcp/mcp-client/src/main/java/com/luruoyang/McpClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-ai-04-mcp/mcp-client/src/main/java/com/luruoyang/config/AiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-ai-04-mcp/mcp-client/src/main/java/com/luruoyang/controller/ChatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-ai-04-mcp/mcp-client/src/main/java/com/luruoyang/dto/ChatDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-ai-04-mcp/mcp-client/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-ai-04-mcp/mcp-client/src/main/resources/mcp-server.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-ai-04-mcp/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,6 +157,8 @@
       <workItem from="1755433424816" duration="9082000" />
       <workItem from="1755443547436" duration="2266000" />
       <workItem from="1755477047788" duration="1274000" />
+      <workItem from="1755480355559" duration="25000" />
+      <workItem from="1755486415516" duration="24000" />
     </task>
     <servers />
   </component>

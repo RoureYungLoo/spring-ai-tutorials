@@ -7,19 +7,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-ai-02" />
-        <module name="spring-ai-01" />
-        <module name="spring-ai-04-mcp" />
-        <module name="spring-ai-03" />
+        <module name="mcp-server" />
+        <module name="mcp-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="17" />
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="spring-ai-01" options="-parameters" />
-      <module name="spring-ai-02" options="-parameters" />
-      <module name="spring-ai-03" options="-parameters" />
+      <module name="mcp-client" options="-parameters" />
+      <module name="mcp-server" options="-parameters" />
+      <module name="spring-ai-04-mcp" options="-parameters" />
     </option>
   </component>
 </project>

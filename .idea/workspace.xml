@@ -5,38 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e4f8498-5764-4f38-8d8a-64ec7f27c2e1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-ai-03/.idea/ApifoxUploaderProjectSetting.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-03/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-03/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-03/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-03/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-03/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-03/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-03/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-03/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-03/src/main/java/com/luruoyang/PlanMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-03/src/main/java/com/luruoyang/SpringAi03Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-03/src/main/java/com/luruoyang/config/AiConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-03/src/main/java/com/luruoyang/constants/SystemConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-03/src/main/java/com/luruoyang/controller/ChatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-03/src/main/java/com/luruoyang/domain/dto/QueryPlanDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-03/src/main/java/com/luruoyang/domain/entity/Plan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-03/src/main/java/com/luruoyang/repository/PlanRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-03/src/main/java/com/luruoyang/tools/ChinaMobileTool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-03/src/main/java/com/luruoyang/vector/RuleDataEmbedding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-03/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-03/src/main/resources/plan.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-03/src/main/resources/rule-data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-03/src/test/java/com/luruoyang/TestPlanMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ai-04-mcp/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/constants/SystemConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/constants/SystemConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ai-02/src/main/java/com/luruoyang/config/AiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-02/src/main/java/com/luruoyang/config/AiConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ai-02/src/main/java/com/luruoyang/controller/AliChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-02/src/main/java/com/luruoyang/controller/AliChatController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ai-02/src/main/java/com/luruoyang/tools/DateTimeTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-02/src/main/java/com/luruoyang/tools/DateTimeTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ai-02/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-02/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -333,7 +303,7 @@
       <workItem from="1755431952384" duration="310000" />
       <workItem from="1755434181289" duration="158000" />
       <workItem from="1755446215007" duration="3826000" />
-      <workItem from="1755478793671" duration="136000" />
+      <workItem from="1755478793671" duration="342000" />
     </task>
     <servers />
   </component>
