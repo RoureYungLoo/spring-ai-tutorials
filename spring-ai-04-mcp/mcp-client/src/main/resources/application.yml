@@ -21,13 +21,15 @@ spring:
           enabled: true
         stdio:
           servers-configuration: classpath:mcp-server.json
+        sse:
+          connections:
+            server:
+              url: http://localhost:8084 #指定自定义的MCP Server服务器地址
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://192.168.100.149:3306/spring-ai-ollama?serverTimezone=Asia/Shanghai&useSSL=false&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&tinyInt1isBit=false&allowPublicKeyRetrieval=true&allowMultiQueries=true&useServerPrepStmts=false
     username: root
     password: MySQL123!
-
-
 
 logging:
   level:

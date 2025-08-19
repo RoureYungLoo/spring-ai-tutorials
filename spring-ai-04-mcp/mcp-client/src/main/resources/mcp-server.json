@@ -6,6 +6,24 @@
         "-y",
         "@executeautomation/playwright-mcp-server"
       ]
+    },
+    "amap-maps": {
+      "command": "npx.cmd",
+      "args": [
+        "-y",
+        "@amap/amap-maps-mcp-server"
+      ],
+      "env": {
+        "AMAP_MAPS_API_KEY": "KEY_PLACE_HOLDER"
+      }
+    },
+    "redis": {
+      "command": "npx.cmd",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-redis",
+        "redis://:Redis123!@192.168.100.149:6379"
+      ]
     }
   }
 }

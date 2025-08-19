@@ -5,23 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff2ec18a-3dee-4da1-804c-5e3faf2536bc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ApifoxUploaderProjectSetting.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcp-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/luruoyang/McpClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/luruoyang/config/AiConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/luruoyang/controller/ChatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/luruoyang/dto/ChatDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcp-client/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcp-client/src/main/resources/mcp-server.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcp-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcp-server/src/main/java/com/luruoyang/McpServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcp-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-ai-03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-ai-03/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mcp-server/src/main/java/com/luruoyang/config/CommonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mcp-server/src/main/java/com/luruoyang/domain/dto/WeatherDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mcp-server/src/main/java/com/luruoyang/tool/WeatherServiceTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/java/com/luruoyang/McpClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/luruoyang/McpClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/java/com/luruoyang/config/AiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/luruoyang/config/AiConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/resources/mcp-server.json" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/resources/mcp-server.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-server/src/main/java/com/luruoyang/McpServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-server/src/main/java/com/luruoyang/McpServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-server/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,13 +64,16 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Maven.spring-ai-04-mcp [clean].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.McpClientApplication.executor": "Debug",
+    "Spring Boot.McpServerApplication.executor": "Debug",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
@@ -132,6 +131,9 @@
       <workItem from="1752366936660" duration="243000" />
       <workItem from="1755479156310" duration="6554000" />
       <workItem from="1755486444753" duration="5700000" />
+      <workItem from="1755566995662" duration="527000" />
+      <workItem from="1755567569938" duration="2300000" />
+      <workItem from="1755569885190" duration="851000" />
     </task>
     <servers />
   </component>
@@ -146,12 +148,7 @@
       <breakpoints>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/mcp-client/src/main/java/com/luruoyang/config/AiConfig.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/mcp-client/src/main/java/com/luruoyang/config/AiConfig.java</url>
-          <line>20</line>
+          <line>47</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -159,7 +156,22 @@
           <line>131</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mcp-client/src/main/java/com/luruoyang/config/AiConfig.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mcp-server/src/main/java/com/luruoyang/config/CommonConfig.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.luruoyang.config.CommonConfig$$SpringCGLIB$$0" memberName="weatherServiceTool" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

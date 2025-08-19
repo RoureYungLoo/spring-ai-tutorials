@@ -1,0 +1,12 @@
+server:
+  port: 8084
+spring:
+  application:
+    name: mcp-server
+  ai:
+    mcp:
+      server:
+        enabled: true
+        name: ${spring.application.name}
+        version: 1.0.0
+        type: async
