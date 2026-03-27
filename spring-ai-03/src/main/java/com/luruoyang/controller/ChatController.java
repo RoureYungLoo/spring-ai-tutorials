@@ -23,7 +23,8 @@ public class ChatController {
   @GetMapping("/chat")
   public Flux<String> chat(String chatId, String prompt) {
 
-    Flux<String> stringFlux = chatClient.prompt()
+    Flux<String> stringFlux = chatClient
+        .prompt()
         .user(prompt)
         .advisors(advisorSpec -> advisorSpec.param(ChatMemory.CONVERSATION_ID, chatId))
         .stream()

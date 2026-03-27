@@ -5,8 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e4f8498-5764-4f38-8d8a-64ec7f27c2e1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-ai-04-mcp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ai-00-source-trace/src/main/java/com/luruoyang/config/AiConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/domain/Conversation.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-01/src/main/java/com/luruoyang/domain/Conversation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ai-02/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-02-alibaba-tool-calling/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ai-02/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-02-alibaba-tool-calling/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ai-02/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-02-alibaba-tool-calling/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ai-02/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-02-alibaba-tool-calling/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ai-02/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-02-alibaba-tool-calling/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ai-02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-02-alibaba-tool-calling/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ai-02/src/main/java/com/luruoyang/SpringAi02Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-02-alibaba-tool-calling/src/main/java/com/luruoyang/SpringAi02Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ai-02/src/main/java/com/luruoyang/config/AiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-02-alibaba-tool-calling/src/main/java/com/luruoyang/config/AiConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ai-02/src/main/java/com/luruoyang/controller/AliChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-02-alibaba-tool-calling/src/main/java/com/luruoyang/controller/AliChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ai-02/src/main/java/com/luruoyang/tools/DateTimeTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-02-alibaba-tool-calling/src/main/java/com/luruoyang/tools/DateTimeTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ai-02/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-02-alibaba-tool-calling/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ai-02/src/test/java/com/luruoyang/SpringAi02ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-02-alibaba-tool-calling/src/test/java/com/luruoyang/SpringAi02ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ai-03/src/main/java/com/luruoyang/config/AiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-03/src/main/java/com/luruoyang/config/AiConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ai-03/src/main/java/com/luruoyang/controller/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-03/src/main/java/com/luruoyang/controller/ChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ai-03/src/main/java/com/luruoyang/tools/ChinaMobileTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-03/src/main/java/com/luruoyang/tools/ChinaMobileTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ai-04-mcp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-04-mcp/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,6 +246,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="McpClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mcp-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luruoyang.McpClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="McpServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mcp-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luruoyang.McpServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringAi01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="spring-ai-01" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.luruoyang.SpringAi01Application" />
@@ -240,7 +274,7 @@
       </method>
     </configuration>
     <configuration name="SpringAi02Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="spring-ai-02" />
+      <module name="spring-ai-02-alibaba-tool-calling" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.luruoyang.SpringAi02Application" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -304,6 +338,16 @@
       <workItem from="1755434181289" duration="158000" />
       <workItem from="1755446215007" duration="3826000" />
       <workItem from="1755478793671" duration="342000" />
+      <workItem from="1755676888491" duration="88000" />
+      <workItem from="1756566583995" duration="74000" />
+      <workItem from="1756689861011" duration="1650000" />
+      <workItem from="1756694908957" duration="1701000" />
+      <workItem from="1756777952334" duration="810000" />
+      <workItem from="1756782084459" duration="1496000" />
+      <workItem from="1756806027103" duration="2405000" />
+      <workItem from="1757692647807" duration="45000" />
+      <workItem from="1757693417689" duration="6000" />
+      <workItem from="1758352373467" duration="16000" />
     </task>
     <servers />
   </component>

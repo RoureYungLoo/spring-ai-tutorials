@@ -26,7 +26,7 @@ import org.springframework.context.annotation.Configuration;
 public class AiConfig {
 
   /**
-   * 向量存储
+   * 向量存储 Vector Store
    */
   @Bean
   public VectorStore vectorStore(OpenAiEmbeddingModel embeddingModel) {

@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.luruoyang</groupId>
-    <artifactId>spring-ai-02</artifactId>
+    <artifactId>spring-ai-02-alibaba-tool-calling</artifactId>
     <version>3.4.3</version>
     <name>spring-ai-02</name>
     <description>spring-ai-02</description>

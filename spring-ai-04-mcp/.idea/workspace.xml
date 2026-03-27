@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff2ec18a-3dee-4da1-804c-5e3faf2536bc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcp-server/src/main/java/com/luruoyang/config/CommonConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcp-server/src/main/java/com/luruoyang/domain/dto/WeatherDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcp-server/src/main/java/com/luruoyang/tool/WeatherServiceTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/java/com/luruoyang/McpClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/luruoyang/McpClientApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/java/com/luruoyang/config/AiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/java/com/luruoyang/config/AiConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-client/src/main/resources/mcp-server.json" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-client/src/main/resources/mcp-server.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-server/src/main/java/com/luruoyang/McpServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-server/src/main/java/com/luruoyang/McpServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcp-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mcp-server/src/main/resources/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="ff2ec18a-3dee-4da1-804c-5e3faf2536bc" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,7 +119,7 @@
       <workItem from="1755486444753" duration="5700000" />
       <workItem from="1755566995662" duration="527000" />
       <workItem from="1755567569938" duration="2300000" />
-      <workItem from="1755569885190" duration="851000" />
+      <workItem from="1755569885190" duration="1013000" />
     </task>
     <servers />
   </component>

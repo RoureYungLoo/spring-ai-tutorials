@@ -7,6 +7,7 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Builder;
 import lombok.Data;
 import org.apache.ibatis.annotations.Mapper;
+import org.springframework.ai.chat.messages.AssistantMessage;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
